@@ -3,13 +3,13 @@
 
 @theme {
   --font-ubuntu: "Ubuntu", sans-serif;
+  --color-charcoal: #36454F;
+  --color-plate: #E5E4E2;
+  --color-darkG: #A9A9A9;
 }
 
 :root {
-  /* Correct variable*/
   background-color: #2563eb;
-  /* background color */
   max-width: 100%;
   height: 100vh;
-  /* Applying font */
 }
