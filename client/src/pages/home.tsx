@@ -2,16 +2,14 @@ import Navbar from "../section/navbar"
 
 export const home = () => {
     return (
-
-        <div className="h-40 ">
-            <Navbar />
-            <div>
+        <>
+        <Navbar />
+        <div className="bg-amber-300 py-8 px-4 mx-auto max-w-screen-xl max-h-">
+            <div className="">
                 Hello world
             </div>
-            <div>
-                Hello
-            </div>
         </div>
+        </>
     )
 }
 export default home
