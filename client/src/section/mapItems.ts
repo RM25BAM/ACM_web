@@ -8,6 +8,10 @@ export const navItems: NavItems[] = [
         navigate: 'about'
     },
     {
+        label: "Team",
+        navigate: 'team'
+    },
+    {
         label: "Events",
         navigate: 'event'
     },
