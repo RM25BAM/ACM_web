@@ -7,7 +7,7 @@ const Navbar: React.FC = () => {
     const navigate = useNavigate();
 
     return (
-        <header className="bg-white shadow-2xl h-18">
+        <nav className="sticky bg-white shadow-2xl h-18">
             <div className="flex items-center h-full px-4 w-full justify-between md:justify-center">
 
                 {/* Logo and Chapter */}
@@ -22,7 +22,7 @@ const Navbar: React.FC = () => {
                 </div>
 
                 {/*  (Visible on md and larger) */}
-                <nav className="hidden md:flex gap-x-10 flex-1 justify-center">
+                <div className="hidden md:flex gap-x-10 flex-1 justify-center">
                     {navItems.map((item) => (
                         <button
                             key={item.label}
@@ -32,14 +32,14 @@ const Navbar: React.FC = () => {
                             {item.label}
                         </button>
                     ))}
-                </nav>
+                </div>
 
                
                 <div className="hidden md:flex border-2">
                     {/* You can add elements here if necessary */}
                 </div>
             </div>
-        </header>
+        </nav>
     );
 };
 
