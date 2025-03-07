@@ -1,17 +1,15 @@
 import Navbar from "../section/navbar"
-
+import Hero from "../components/Hero"
 export const home = () => {
     return (
-        <>
+        <div className="bg-zinc-950">
             <Navbar />
-            <div className="bg- max-h">
-                <div className="">
-                    Hello world
-                </div>
-            </div>
-        </>
+            <Hero />
+            <div className="h-screen" />
+        </div> 
     )
 }
 export default home
+
 
 /* thinking of tiles */
